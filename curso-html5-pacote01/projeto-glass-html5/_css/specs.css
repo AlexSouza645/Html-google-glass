@@ -1,0 +1,16 @@
+/*formatação do spec html (segunbdo arquivo de html)*/
+
+sectio#conteudo {
+    width: 1000px;
+    margin: auto;
+}
+iframe#frame-spec {
+    width: 
+    395px;
+    height: 280px;
+    border: none;
+    
+}
+iframe#frame-spec ::-webkit-scrollbar  {
+ display: none;
+}

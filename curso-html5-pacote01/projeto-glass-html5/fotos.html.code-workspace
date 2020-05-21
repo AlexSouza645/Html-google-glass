@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "_css"
+		},
+		{
+			"path": "_fonts"
+		},
+		{
+			"path": "_imagens"
+		},
+		{
+			"path": "_interface"
+		},
+		{
+			"path": "_javascript"
+		},
+		{
+			"path": "_media"
+		},
+		{
+			"path": "_textos"
+		},
+		{
+			"path": "intjs.html"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "intjs.html"
+	}
+}

@@ -1,0 +1,301 @@
+           /*formatação das fontes*/
+
+           @font-face {
+               font-family: 'fontelogo';
+               /*criar variavel para fonte*/
+               src: url('../_fonts/bubblegum-sans-regular.otf');
+           }
+
+           body {
+               background-color: #dddddd;
+               color           : rgba(0, 0, 0, 1);
+               font-family     : Arial, sans-serif;
+               margin: 2px 2px 2px 2px;
+           }
+
+           /*formatação da interface*/
+           div#interface {
+               width           : 900px;
+               background-color: #ffffff;
+               margin          : -20px auto 0px auto;
+               /*sentido horário, auto o sistema define*/
+               box-shadow: 0px 0px 10px rgb(85, 84, 84);
+               /*v,l,espalhamento,cor*/
+               padding: 10px;
+
+           }
+
+           p {
+               text-align : justify;
+               text-indent: 50px;
+           }
+
+           a {
+               /*links*/
+               color          : #606060;
+               text-decoration: none;
+           }
+
+           a:hover {
+               text-decoration: underline;
+           }
+
+           /*formatação da imagem oculos e cabeçalho*/
+           header#cabeçalho img#icone {
+               position: absolute;
+               left    : 700px;
+               top     : 40px;
+           }
+
+           header#cabeçalho {
+               border-bottom: 1px rgb(119, 118, 118) solid;
+               /*tamanho, cor, formato*/
+               height    : 150px;
+               background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+               /*carregar imagens em css, sem repetir(lateral,vertical)*/
+           }
+
+           header#cabeçalho h1 {
+               font-family: fontelogo, sans-serif;
+               font-size  : 30px;
+               color      : rgb(80, 78, 78);
+               text-shadow: 1px 1px 1px black;
+               /*v,l,espalhamento,cor*/
+               padding: 0px;
+               /*separação de itens*/
+               margin-bottom: 0px;
+
+           }
+
+           header#cabeçalho h2 {
+               font-family: Arial, sans-serif;
+               color      : rgb(102, 101, 101);
+               padding    : 0px;
+               margin-top : 0px;
+           }
+
+           /*formatação de imagens com legendas*/
+
+           figure.foto-legenda {
+               position  : relative;
+               border    : 8px solid rgb(247, 240, 240);
+               box-shadow: 1px 1px 4px black;
+           }
+
+           figure.foto-legenda img {
+               width : 100%;
+               height: 100%;
+           }
+
+           figure.foto-legenda figcaption {
+               opacity         : 0%;
+               position        : absolute;
+               top             : 10px;
+               background-color: rgba(0, 0, 0, .4);
+               color           : blanchedalmond;
+               width           : 100%;
+               height          : 100%;
+               padding         : 10px;
+               box-sizing      : border-box;
+               transition      : opacity 1s;
+
+           }
+
+           figure.foto-legenda:hover figcaption {
+               /*formatação expecifica para uso do mouse*/
+               opacity: 1;
+           }
+
+           /*Formatação do menu*/
+           nav#menu {
+               display: block;
+               float: right;
+               padding: 50px;
+              
+            
+               /*p/ usar tudo q foi selecionado em bloco*/
+           }
+
+           nav#menu ul {
+               /* ul ( não listadas)*/
+               list-style    : none;
+               text-transform: uppercase;
+               /*transforma todo o texo selecionado*/
+               position: absolute;
+               /*absolute posso usar globalmente e relative posso usar só localmente*/
+               top : -15px;
+               left: 300px;
+
+
+           }
+
+           nav#menu li {
+               /*listas*/
+               display: inline-block;
+               /*alinhamento horizontal*/
+               background-color: rgb(158, 157, 157);
+               padding         : 10px;
+               /*espaço dentro dos objetos*/
+               margin: 2px;
+               /*espaço fora dos objetos*/
+               transition: 1s;
+               /*duração da transição*/
+           }
+
+           nav#menu li:hover {
+               /*efeito ao passar o mouse*/
+               background-color: #606060;
+
+
+           }
+
+           nav#menu h1 {
+               /*h1 primeiro título*/
+               display: none;
+           }
+
+           nav#menu a {
+               /*a (âncora ou link)*/
+               color          : black;
+               text-decoration: none;
+               /*tirar sublinhado*/
+           }
+
+           nav#menu a:hover {
+               /*mudar de cor ao passar o mouse*/
+               color: rgb(253, 251, 247);
+           }
+
+           /*formatação do section*/
+           section#corpo {
+               display: block;
+               /*mostra como bloco*/
+               width: 450px;
+               float: left;
+               /*flutuar*/
+               border-right : 1px solid #606060;
+               padding-right: 20px;
+
+           }
+
+           /*foramatação do article*/
+           article#noticia-principal h2 {
+               font-size       : 12pt;
+               color           : rgb(99, 97, 97);
+               background-color: #dddddd;
+               padding         : 5px 0px 5px 0px;
+               margin          : 10px 0px 10px 0px;
+           }
+
+           header#cabecalho-artigo h1 {
+               font-family  : sans-serif;
+               font-size    : 20pt;
+               color        : #606060;
+               margin-bottom: 0px;
+               margin-top   : 0px;
+
+           }
+
+           header#cabecalho-artigo h2 {
+               font-size       : 13pt;
+               color           : #cecece;
+               background-color: #ffffff;
+           }
+
+           header#cabecalho-artigo h3 {
+               font-size: 12px;
+               color    : #606060;
+           }
+
+           .direita {
+               text-align: right;
+           }
+
+           /*formatação da tabela*/
+           table#tabelaspec {
+               border        : 1px solid #606060;
+               border-spacing: 0px;
+               margin-left   : auto;
+               margin-right  : auto;
+           }
+
+           table#tabelaspec td {
+               border        : 1px solid #606060;
+               padding       : 10px;
+               text-align    : center;
+               vertical-align: middle;
+
+           }
+
+           table#tabelaspec td.ce {
+               color           : #ffffff;
+               background-color: dimgray;
+               vertical-align  : top;
+               font-weight     : bold;
+           }
+
+           table#tabelaspec td.cd {
+               color           : rgb(15, 12, 7);
+               background-color: gainsboro;
+           }
+
+           table#tabelaspec caption {
+               color      : #504f4f;
+               font-size  : 15pt;
+               font-weight: bolder;
+
+           }
+
+           table#tabelaspec caption span {
+               /*mar 2013*/
+               display   : block;
+               float     : right;
+               color     : black;
+               font-size : 8pt;
+               margin-top: 20px;
+           }
+
+           /*formatação do aside*/
+           aside#lateral {
+               display         : block;
+               width           : 420px;
+               float           : right;
+               background-color: #dddddd;
+               margin-top      : 10px;
+               box-shadow      : 2px 2px 2px rgba(0, 0, 0, .5)
+           }
+
+           aside#lateral h1 {
+               font-family: Arial, sans-serif;
+               font-size  : 20pt;
+               color      : #606060;
+               margin-top : 0px;
+
+               ;
+
+           }
+
+           aside#lateral h2 {
+               background-color: #606060;
+               font-size       : 13pt;
+               color           : #f1ecec;
+               padding         : 5px;
+           }
+
+           footer#rodape {
+               clear     : both;
+               border-top: 1px solid #606060;
+           }
+
+           /*formnatar footer*/
+           footer#rodape p {
+               text-align: center;
+           }
+
+
+
+           /*>css
+         //js//
+         <!--html-->
+         */
+         

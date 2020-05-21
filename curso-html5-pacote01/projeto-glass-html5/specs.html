@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--usado p/ q o html identifique a linguagem  q eu quero utilizar-->
+
+<head>
+    <meta charset="UTF-8" />
+    <!--usado p/ q se utilize o teclado brasileiro-->
+    <title>
+        tudo sobre google glass
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
+    <!--link usao para chamar css janela separada-->
+    <link rel="stylesheet" href="_css/specs.css">
+
+</head>
+<script src="_javascript/funcoes.js"></script>
+<!--src para chamar janela de js-->
+
+
+<body>
+    <div id="interface">
+        <header id="cabeçalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+            <img id="icone" src="_imagens/glass-oculos-preto-peq.png" alt="">
+
+
+
+
+            <nav id="menu">
+                <h1> Menu Principal</h1>
+                <ul type="disc">
+                    <!--ul (linhas nao ordenadas) ol (linhas ordenadas-->
+                    <li onmouseover="mudaFoto('home.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')">
+                        <a href="index.html">Home</a> </li>
+                    <!--colocar os nomes dentro da referencia(a)-->
+                    <li onmouseover="mudaFoto('_imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="specs.html">Especificações</a>
+                    </li>
+                    <li onmouseover="mudaFoto('_imagens/fotos.png') "
+                        onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="fotos.html">Fotos</a>
+                    </li>
+                    <li onmouseover="mudaFoto('_imagens/multimidia.png')"
+                        onmouseout="mudaFoto('_imagens/especificacoes.png')">
+                        <a href="multimidia.html">multimídia</a> </li>
+                    <li onmouseover="mudaFoto('_imagens/contato.png')"
+                        onmouseout="mudaFoto('_imagens/especificacoes.png')">
+                        <a href="multimidia.html">Fale Conosco</a> </li>
+
+
+
+
+
+
+
+                </ul>
+            </nav>
+
+
+        </header>
+        <section id="corpo-full">
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3>Glass > Especificações</h3>
+                        <h1>Raio-X no Google Glass</h1>
+                        <h2>por Gustavo Guanabara</h2>
+
+                        <h3 class="direita">Atualizado em 01/Fev/2020</h3>
+                    </hgroup>
+                </header>
+
+
+
+
+
+
+                <p> Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google
+                    Glass.
+                    Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+
+                <section id="conteudo">
+                    <img src="_imagens/glass-esquema-marcado.jpg" alt="" usemap="#meumapa">
+                    <map name="meumapa">
+                        <!--para mapear imagens-->
+                        <area shape="poly" coords="182,219,263,205,271,245,184,257" href="google-glass.html#tela" target="janela" alt="">
+                        <area shape="circle" coords="158,243,11" href="google-glass.html#camera" target="janela" alt="">
+                        <area shape="circle" coords="70,55,12" href="google-glass.html#gadgets" target="janela" alt="">
+                        <area shape="poly" coords="28,148,80,215,83,250,27,167" href="google-glass.html#sensores" target="janela" alt="">
+                    </map>
+                    <iframe  id="frame-spec" name="janela" src="google-glass.html" frameborder="0"></iframe >
+                    <!--usado para chamar outro arquivo html-->>
+                </section>
+            </article>
+        </section>
+        <footer id="rodape">
+
+            <p> Copyright &copy; 2013 - by Gustavo Guanabara <br />
+                <a href="http://www.facebook.com/cursosemvideo" target="_blank"> Facebook </a>|
+                <a href="http://www.twitter.com/cursosemvideo" target="_blank">Twitter</a> </p>
+        </footer>
+
+    </div>
+</body>
+
+</html>1
