@@ -109,7 +109,7 @@
            /*Formatação do menu*/
            nav#menu {
                display: block;
-               float: right;
+               float: left;
                padding: 50px;
               
             
@@ -131,7 +131,7 @@
 
            nav#menu li {
                /*listas*/
-               display: inline-block;
+               display:inline-block;
                /*alinhamento horizontal*/
                background-color: rgb(158, 157, 157);
                padding         : 10px;
