@@ -1,12 +1,12 @@
 /*formatação do spec html (segunbdo arquivo de html)*/
 
-sectio#conteudo {
-    width: 1000px;
+section#conteudo {
+    width: 100px;
     margin: auto;
 }
 iframe#frame-spec {
     width: 
-    395px;
+    20px;
     height: 280px;
     border: none;
     

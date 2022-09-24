@@ -3,15 +3,21 @@
            @font-face {
                font-family: 'fontelogo';
                /*criar variavel para fonte*/
-               src: url('../_fonts/bubblegum-sans-regular.otf');
+               src: url('curso-html5-pacote01\__MACOSX\projeto-glass-html5\_fonts\._bubblegum-sans-regular.otf');
            }
 
            body {
-               background-color: #dddddd;
-               color           : rgba(0, 0, 0, 1);
-               font-family     : Arial, sans-serif;
-               margin: 2px 2px 2px 2px;
-           }
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRyIGcde26lAX2U6DfmVQQXzyGCp0zdq7ph5Q&usqp=CAU");
+            background-color: hsla(165, 81%, 93%, 0.5);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: top, center;
+            background-size: 100%;
+            background-blend-mode: color;
+            color: rgba(0,0,0,1);
+            color: black;
+            font-family: Arial, sans-serif;
+        }
 
            /*formatação da interface*/
            div#interface {
@@ -21,7 +27,7 @@
                /*sentido horário, auto o sistema define*/
                box-shadow: 0px 0px 10px rgb(85, 84, 84);
                /*v,l,espalhamento,cor*/
-               padding: 10px;
+               padding: 30px;
 
            }
 
@@ -43,21 +49,22 @@
            /*formatação da imagem oculos e cabeçalho*/
            header#cabeçalho img#icone {
                position: absolute;
-               left    : 700px;
-               top     : 40px;
+               left    : 980px;
+               top     : 50px;
            }
 
            header#cabeçalho {
-               border-bottom: 1px rgb(119, 118, 118) solid;
+               border-bottom: 1px rgb(119, 118, 118) dotted;
                /*tamanho, cor, formato*/
                height    : 150px;
-               background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+               background: url("curso-html5-pacote01\projeto-glass-html5\imagens\glass-logo-peq.jpg") no-repeat 0px 90px;
                /*carregar imagens em css, sem repetir(lateral,vertical)*/
+               border-radius: 25px 5px 25px 5px;
            }
 
            header#cabeçalho h1 {
                font-family: fontelogo, sans-serif;
-               font-size  : 30px;
+               font-size  : 30pt;
                color      : rgb(80, 78, 78);
                text-shadow: 1px 1px 1px black;
                /*v,l,espalhamento,cor*/
@@ -90,8 +97,8 @@
            figure.foto-legenda figcaption {
                opacity         : 0%;
                position        : absolute;
-               top             : 10px;
-               background-color: rgba(0, 0, 0, .4);
+               top             : 0;
+               background-color: rgba(0, 0, 0, .6);
                color           : blanchedalmond;
                width           : 100%;
                height          : 100%;
@@ -123,8 +130,8 @@
                /*transforma todo o texo selecionado*/
                position: absolute;
                /*absolute posso usar globalmente e relative posso usar só localmente*/
-               top : -15px;
-               left: 300px;
+               top : -20px;
+               left: 500px;
 
 
            }
@@ -138,13 +145,15 @@
                /*espaço dentro dos objetos*/
                margin: 2px;
                /*espaço fora dos objetos*/
-               transition: 1s;
+               transition: 2s;
                /*duração da transição*/
+               border-radius: 4px;
            }
 
            nav#menu li:hover {
                /*efeito ao passar o mouse*/
                background-color: #606060;
+               transition: 1s;
 
 
            }
@@ -170,11 +179,11 @@
            section#corpo {
                display: block;
                /*mostra como bloco*/
-               width: 450px;
+               width: 500px;
                float: left;
                /*flutuar*/
                border-right : 1px solid #606060;
-               padding-right: 20px;
+               padding-right: 15px;
 
            }
 
@@ -183,7 +192,7 @@
                font-size       : 12pt;
                color           : rgb(99, 97, 97);
                background-color: #dddddd;
-               padding         : 5px 0px 5px 0px;
+               padding         : 4px 0px 4px 10px;
                margin          : 10px 0px 10px 0px;
            }
 
@@ -193,6 +202,8 @@
                color        : #606060;
                margin-bottom: 0px;
                margin-top   : 0px;
+               padding: 10px;
+    border-radius: 2px;
 
            }
 
@@ -258,7 +269,7 @@
            /*formatação do aside*/
            aside#lateral {
                display         : block;
-               width           : 420px;
+               width           : 350px;
                float           : right;
                background-color: #dddddd;
                margin-top      : 10px;
@@ -279,19 +290,26 @@
                background-color: #606060;
                font-size       : 13pt;
                color           : #f1ecec;
-               padding         : 5px;
+               padding         : 8px;
            }
 
            footer#rodape {
                clear     : both;
                border-top: 1px solid #606060;
+               border-radius: 25px 25px 0 0
            }
 
            /*formnatar footer*/
            footer#rodape p {
                text-align: center;
            }
-
+           video {
+            border-radius: 8px;
+        }
+        
+        video#filme2 {
+            width: 350px;
+        }
 
 
            /*>css
