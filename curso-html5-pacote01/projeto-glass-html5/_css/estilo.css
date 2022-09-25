@@ -57,7 +57,7 @@
                border-bottom: 1px rgb(119, 118, 118) dotted;
                /*tamanho, cor, formato*/
                height    : 150px;
-               background: url("curso-html5-pacote01\projeto-glass-html5\imagens\glass-logo-peq.jpg") no-repeat 0px 90px;
+               background: url("curso-html5-pacote01/projeto-glass-html5/imagens/glass-logo-peq.jpg") no-repeat 0px 90px;
                /*carregar imagens em css, sem repetir(lateral,vertical)*/
                border-radius: 25px 5px 25px 5px;
            }
@@ -194,6 +194,7 @@
                background-color: #dddddd;
                padding         : 4px 0px 4px 10px;
                margin          : 10px 0px 10px 0px;
+               border-radius: 5px;
            }
 
            header#cabecalho-artigo h1 {
@@ -206,6 +207,9 @@
     border-radius: 2px;
 
            }
+           .direita {
+            text-align: right;
+        }
 
            header#cabecalho-artigo h2 {
                font-size       : 13pt;
@@ -252,8 +256,8 @@
 
            table#tabelaspec caption {
                color      : #504f4f;
-               font-size  : 15pt;
-               font-weight: bolder;
+               font-size  : 12pt;
+               font-weight: bold;
 
            }
 
@@ -263,7 +267,7 @@
                float     : right;
                color     : black;
                font-size : 8pt;
-               margin-top: 20px;
+               margin-top: 10px;
            }
 
            /*formatação do aside*/

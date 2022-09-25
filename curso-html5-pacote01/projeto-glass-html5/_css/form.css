@@ -25,6 +25,7 @@ fieldset {
 
 border-color: dimgrey;
 margin: 20px;
+border-radius: 15px 0;
 
 
 
@@ -37,17 +38,17 @@ width: 150px;
 }
 fieldset#usuario {
 
-    background: url("../_imagens/icone-contato.png") no-repeat 95% 95%;
+    background: url("curso-html5-pacote01/projeto-glass-html5/imagens/icone-contato.png") no-repeat 95% 95%;
 }
 
 fieldset#endereco {
-    background: url("../_imagens/icone-endereco.png")no-repeat 95% 95%;
+    background: url("curso-html5-pacote01/projeto-glass-html5/imagens/icone-endereco.png")no-repeat 95% 95%;
 }
 fieldset#mensagem {
-    background: url("../_imagens/icone-mensagem.png") no-repeat 95% 95%;
+    background: url("curso-html5-pacote01/projeto-glass-html5/imagens/icone-mensagem.png") no-repeat 95% 95%;
     
 }
 fieldset#pedido {
-    background: url("../_imagens/icone-pagamento.png") no-repeat 95% 95%;
+    background: url("curso-html5-pacote01/projeto-glass-html5/_css/curso-html5-pacote01/projeto-glass-html5/imagens/icone-pagamento.png") no-repeat 95% 95%;
     
 }
