@@ -1,9 +1,9 @@
            /*formatação das fontes*/
 
-           @font-face {
-               font-family: 'fontelogo';
+           @font-face {/*fontes externas*/
+               font-family: 'Roboto';
                /*criar variavel para fonte*/
-               src: url('curso-html5-pacote01\__MACOSX\projeto-glass-html5\_fonts\._bubblegum-sans-regular.otf');
+               src: url('Roboto-Regular.ttf');
            }
 
            body {
@@ -21,7 +21,7 @@
 
            /*formatação da interface*/
            div#interface {
-               width           : 900px;
+               max-width           : 900px;
                background-color: #ffffff;
                margin          : -20px auto 0px auto;
                /*sentido horário, auto o sistema define*/
