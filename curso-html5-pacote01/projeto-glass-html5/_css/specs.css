@@ -1,7 +1,7 @@
 /*formatação do spec html (segunbdo arquivo de html)*/
 
 section#conteudo {
-    width: 100px;
+    width: 1000px;
     margin: auto;
 }
 iframe#frame-spec {
