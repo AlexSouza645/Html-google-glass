@@ -9,12 +9,12 @@
         tudo sobre google glass
     </title>
 
-    <link rel="stylesheet" type="text/css" href="curso-html5-pacote01\projeto-glass-html5\_css\estilo.css" />
+    <link rel="stylesheet" type="text/css" href="curso-html5-pacote01/projeto-glass-html5/_css/estilo.css" />
     <!--link usao para chamar css janela separada-->
-    <link rel="stylesheet" href="curso-html5-pacote01\projeto-glass-html5\_css\specs.css">
+    <link rel="stylesheet" href="curso-html5-pacote01/projeto-glass-html5/_css/specs.css">
 
 </head>
-<script src="curso-html5-pacote01\projeto-glass-html5\_javascript\funcoes.js"></script>
+<script src="script/funcoes.js"></script>
 <!--src para chamar janela de js-->
 
 
@@ -25,7 +25,7 @@
                 <h1>Google Glass</h1>
                 <h2>A revolução do Google está chegando</h2>
             </hgroup>
-            <img id="icone" src="curso-html5-pacote01\projeto-glass-html5\imagens\especificacoes.png" alt="">
+            <img id="icone" src="imagens/imagens/especificacoes.png" alt="">
 
 
 
@@ -34,28 +34,35 @@
                 <h1> Menu Principal</h1>
                 <ul type="disc">
                     <!--ul (linhas nao ordenadas) ol (linhas ordenadas-->
-                    <li onmouseover="mudaFoto('curso-html5-pacote01/__MACOSX/projeto-glass-html5/_imagens/home.png')" onmouseout="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/especificacoes.png')"><!--_imagens/glass-oculos-preto-peq.png-->
-                        <a href="index.html">Home</a> </li>
-
-                    <!--colocar os nomes dentro da referencia(a)-->
-                    <li onmouseover="mudaFoto('curso-html5-pacote01/__MACOSX/projeto-glass-html5/_imagens/especificacoes.png')"
-                        onmouseout="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/especificacoes.png')"><a
-                            href="specs.html">Especificações</a> </li>
-
-                    <li onmouseover="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/fotos.png') "
-                        onmouseout="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/especificacoes.png')"><a href="fotos.html">Fotos</a>
+                    <li onmouseover="mudaFoto('imagens/imagens/home.png')"
+                        onmouseout="mudaFoto('imagens/imagens/especificacoes.png')">
+                        <!--_imagens/glass-oculos-preto-peq.png-->
+                        <a href="index.html">Home</a>
                     </li>
 
-                    <li onmouseover="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/multimidia.png')"
-                        onmouseout="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/especificacoes.png')">
-                        <a href="multimidia.html">multimídia</a> </li>
+                    <!--colocar os nomes dentro da referencia(a)-->
+                    <li onmouseover="mudaFoto('/imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('imagens/imagens/especificacoes.png')">
+                        <a href="specs.html">Especificações</a>
+                    </li>
 
-                        <li onmouseover="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/contato.png')"
-                        onmouseout="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/especificacoes.png')">
-                        <a href="fale-conosco.html">Fale Conosco</a> </li>
+                    <li onmouseover="mudaFoto('imagens/imagens/fotos.png') "
+                        onmouseout="mudaFoto('imagens/imagens/especificacoes.png')">
+                        <a href="fotos.html">Fotos</a>
+                    </li>
+
+                    <li onmouseover="mudaFoto('imagens/imagens/multimidia.png')"
+                        onmouseout="mudaFoto('imagens/imagens/especificacoes.png')">
+                        <a href="multimidia.html">multimídia</a>
+                    </li>
+
+                    <li onmouseover="mudaFoto('imagens/imagens/contato.png')"
+                        onmouseout="mudaFoto('imagens/imagens/especificacoes.png')">
+                        <a href="fale-conosco.html">Fale Conosco</a>
+                    </li>
 
 
-                    
+
 
 
 
@@ -87,7 +94,7 @@
                     Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
 
                 <section id="conteudo">
-                    <img src="curso-html5-pacote01\projeto-glass-html5\imagens\glass-esquema-marcado.jpg" alt="" usemap="#meumapa">
+                    <img src="imagens/imagens/glass-esquema-marcado.jpg" alt="" usemap="#meumapa">
                     <map name="meumapa">
                         <!--para mapear imagens-->
                         <area shape="rect" coords="179,202,270,260" href="google-glass.html#tela" target="janela"/><!--google-glass.html#tela-->

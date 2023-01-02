@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="curso-html5-pacote01\projeto-glass-html5\_css\form.css">
 
 </head>
-<script src="curso-html5-pacote01\projeto-glass-html5\_javascript\funcoes.js"></script>
+<script src="script/funcoes.js"></script>
 <!--src para chamar janela de js-->
 <script> //função para calcular o total do preço//
     function calc_total() {
@@ -34,7 +34,7 @@
                 <h1>Google Glass</h1>
                 <h2>A revolução do Google está chegando</h2>
             </hgroup>
-            <img id="icone" src="curso-html5-pacote01\projeto-glass-html5\imagens\contato.png" alt="">
+            <img id="icone" src="imagens/imagens/contato.png" alt="">
 
 
 
@@ -43,25 +43,32 @@
                 <h1> Menu Principal</h1>
                 <ul type="disc">
                     <!--ul (linhas nao ordenadas) ol (linhas ordenadas-->
-                    <li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/especificacoes.png')"><!--_imagens/glass-oculos-preto-peq.png-->
-                        <a href="index.html">Home</a> </li>
-
-                    <!--colocar os nomes dentro da referencia(a)-->
-                    <li onmouseover="mudaFoto('curso-html5-pacote01/__MACOSX/projeto-glass-html5/_imagens/especificacoes.png')"
-                        onmouseout="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/especificacoes.png')"><a
-                            href="specs.html">Especificações</a> </li>
-
-                    <li onmouseover="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/fotos.png') "
-                        onmouseout="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/especificacoes.png')"><a href="fotos.html">Fotos</a>
+                    <li onmouseover="mudaFoto('imagens/imagens/home.png')"
+                        onmouseout="mudaFoto('imagens/imagens/contato.png')">
+                        <!--_imagens/glass-oculos-preto-peq.png-->
+                        <a href="index.html">Home</a>
                     </li>
 
-                    <li onmouseover="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/multimidia.png')"
-                        onmouseout="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/especificacoes.png')">
-                        <a href="multimidia.html">multimídia</a> </li>
+                    <!--colocar os nomes dentro da referencia(a)-->
+                    <li onmouseover="mudaFoto('/imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('imagens/imagens/contato.png')">
+                        <a href="specs.html">Especificações</a>
+                    </li>
 
-                        <li onmouseover="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/contato.png')"
-                        onmouseout="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/especificacoes.png')">
-                        <a href="fale-conosco.html">Fale Conosco</a> </li>
+                    <li onmouseover="mudaFoto('imagens/imagens/fotos.png') "
+                        onmouseout="mudaFoto('imagens/imagens/contato.png')">
+                        <a href="fotos.html">Fotos</a>
+                    </li>
+
+                    <li onmouseover="mudaFoto('imagens/imagens/multimidia.png')"
+                        onmouseout="mudaFoto('imagens/imagens/contato.png')">
+                        <a href="multimidia.html">multimídia</a>
+                    </li>
+
+                    <li onmouseover="mudaFoto('imagens/imagens/contato.png')"
+                        onmouseout="mudaFoto('imagens/imagens/contato.png')">
+                        <a href="fale-conosco.html">Fale Conosco</a>
+                    </li>
 
 
 
@@ -182,7 +189,7 @@
 
 
 
-                    <input type="image" src="curso-html5-pacote01\projeto-glass-html5\imagens\botao-enviar.png" name="tEnviar" id="">
+                    <input type="image" src="imagens/imagens/botao-enviar.png" name="tEnviar" id="">
                 </form>
 
                 <footer id="rodape">

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="curso-html5-pacote01\projeto-glass-html5\_css\fotos.css">
 
 </head>
-<script src="_javascript/funcoes.js"></script>
+<script src="script/funcoes.js"></script>
 <!--src para chamar janela de js-->
 
 
@@ -26,7 +26,7 @@
                 <h1>Google Glass</h1>
                 <h2>A revolução do Google está chegando</h2>
             </hgroup>
-            <img id="icone" src="_imagens/glass-oculos-preto-peq.png" alt="">
+            <img id="icone" src="/imagens/imagens/fotos.png" alt="">
 
 
 
@@ -35,19 +35,32 @@
                 <h1> Menu Principal</h1>
                 <ul type="disc">
                     <!--ul (linhas nao ordenadas) ol (linhas ordenadas-->
-                    <li onmouseover="mudaFoto('home.png')" onmouseout="mudaFoto('_imagens/fotos.png')">
-                        <a href="index.html">Home</a> </li>
+                    <li onmouseover="mudaFoto('imagens/imagens/home.png')"
+                        onmouseout="mudaFoto('/imagens/imagens/fotos.png')">
+                        <!--_imagens/glass-oculos-preto-peq.png-->
+                        <a href="index.html">Home</a>
+                    </li>
+
                     <!--colocar os nomes dentro da referencia(a)-->
-                    <li onmouseover="mudaFoto('_imagens/especificacoes.png')"
-                        onmouseout="mudaFoto('_imagens/fotos.png')"><a href="specs.html">Especificações</a>
+                    <li onmouseover="mudaFoto('/imagens/imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('/imagens/imagens/fotos.png')">
+                        <a href="specs.html">Especificações</a>
                     </li>
-                    <li onmouseover="mudaFoto('_imagens/fotos.png') " onmouseout="mudaFoto('_imagens/fotos.png')"><a
-                            href="fotos.html">Fotos</a>
+
+                    <li onmouseover="mudaFoto('imagens/imagens/fotos.png') "
+                        onmouseout="mudaFoto('/imagens/imagens/fotos.png')">
+                        <a href="fotos.html">Fotos</a>
                     </li>
-                    <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/fotos.png')">
-                        <a href="multimidia.html">multimídia</a> </li>
-                    <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/fotos.png')">
-                        <a href="multimidia.html">Fale Conosco</a> </li>
+
+                    <li onmouseover="mudaFoto('imagens/imagens/multimidia.png')"
+                        onmouseout="mudaFoto('/imagens/imagens/fotos.png')">
+                        <a href="multimidia.html">multimídia</a>
+                    </li>
+
+                    <li onmouseover="mudaFoto('imagens/imagens/contato.png')"
+                        onmouseout="mudaFoto('/imagens/imagens/fotos.png')">
+                        <a href="fale-conosco.html">Fale Conosco</a>
+                    </li>
 
 
 
