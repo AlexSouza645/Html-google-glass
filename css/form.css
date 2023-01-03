@@ -38,17 +38,17 @@ width: 150px;
 }
 fieldset#usuario {
 
-    background: url("curso-html5-pacote01/projeto-glass-html5/imagens/icone-contato.png") no-repeat 95% 95%;
+    background: url("/imagens/icone-contato.png") no-repeat 95% 95%;
 }
 
 fieldset#endereco {
-    background: url("curso-html5-pacote01/projeto-glass-html5/imagens/icone-endereco.png")no-repeat 95% 95%;
+    background: url("/imagens/icone-endereco.png")no-repeat 95% 95%;
 }
 fieldset#mensagem {
-    background: url("curso-html5-pacote01/projeto-glass-html5/imagens/icone-mensagem.png") no-repeat 95% 95%;
+    background: url("/imagens/icone-mensagem.png") no-repeat 95% 95%;
     
 }
 fieldset#pedido {
-    background: url("curso-html5-pacote01/projeto-glass-html5/_css/curso-html5-pacote01/projeto-glass-html5/imagens/icone-pagamento.png") no-repeat 95% 95%;
+    background: url("/imagens/icone-pagamento.png") no-repeat 95% 95%;
     
 }

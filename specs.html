@@ -9,9 +9,9 @@
         tudo sobre google glass
     </title>
 
-    <link rel="stylesheet" type="text/css" href="curso-html5-pacote01/projeto-glass-html5/_css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
     <!--link usao para chamar css janela separada-->
-    <link rel="stylesheet" href="curso-html5-pacote01/projeto-glass-html5/_css/specs.css">
+    <link rel="stylesheet" href="css/specs.css">
 
 </head>
 <script src="script/funcoes.js"></script>
@@ -25,7 +25,7 @@
                 <h1>Google Glass</h1>
                 <h2>A revolução do Google está chegando</h2>
             </hgroup>
-            <img id="icone" src="imagens/imagens/especificacoes.png" alt="">
+            <img id="icone" src="imagens/especificacoes.png" alt="">
 
 
 
@@ -34,30 +34,29 @@
                 <h1> Menu Principal</h1>
                 <ul type="disc">
                     <!--ul (linhas nao ordenadas) ol (linhas ordenadas-->
-                    <li onmouseover="mudaFoto('imagens/imagens/home.png')"
-                        onmouseout="mudaFoto('imagens/imagens/especificacoes.png')">
+                    <li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/especificacoes.png')">
                         <!--_imagens/glass-oculos-preto-peq.png-->
                         <a href="index.html">Home</a>
                     </li>
 
                     <!--colocar os nomes dentro da referencia(a)-->
-                    <li onmouseover="mudaFoto('/imagens/especificacoes.png')"
-                        onmouseout="mudaFoto('imagens/imagens/especificacoes.png')">
+                    <li onmouseover="mudaFoto('imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('imagens/especificacoes.png')">
                         <a href="specs.html">Especificações</a>
                     </li>
 
-                    <li onmouseover="mudaFoto('imagens/imagens/fotos.png') "
-                        onmouseout="mudaFoto('imagens/imagens/especificacoes.png')">
+                    <li onmouseover="mudaFoto('imagens/fotos.png') "
+                        onmouseout="mudaFoto('imagens/especificacoes.png')">
                         <a href="fotos.html">Fotos</a>
                     </li>
 
-                    <li onmouseover="mudaFoto('imagens/imagens/multimidia.png')"
-                        onmouseout="mudaFoto('imagens/imagens/especificacoes.png')">
+                    <li onmouseover="mudaFoto('imagens/multimidia.png')"
+                        onmouseout="mudaFoto('imagens/especificacoes.png')">
                         <a href="multimidia.html">multimídia</a>
                     </li>
 
-                    <li onmouseover="mudaFoto('imagens/imagens/contato.png')"
-                        onmouseout="mudaFoto('imagens/imagens/especificacoes.png')">
+                    <li onmouseover="mudaFoto('imagens/contato.png')"
+                        onmouseout="mudaFoto('imagens/especificacoes.png')">
                         <a href="fale-conosco.html">Fale Conosco</a>
                     </li>
 
@@ -84,25 +83,22 @@
                     </hgroup>
                 </header>
 
-
-
-
-
-
-                <p> Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google
+        <p> Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google
                     Glass.
                     Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
 
                 <section id="conteudo">
-                    <img src="imagens/imagens/glass-esquema-marcado.jpg" alt="" usemap="#meumapa">
+                    <img src="imagens/glass-esquema-marcado.jpg" alt="" usemap="#meumapa">
                     <map name="meumapa">
                         <!--para mapear imagens-->
-                        <area shape="rect" coords="179,202,270,260" href="google-glass.html#tela" target="janela"/><!--google-glass.html#tela-->
-                        <area shape="circle" coords="158,243,12" href="google-glass.html#camera" target="janela"/>
-                        <area shape="circle" coords="74,51,11" href="google-glass.html#sensores" target="janela"/>
-                        <area shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html#bateria" target="janela"/>
+                        <area shape="rect" coords="179,202,270,260" href="google-glass.html#tela"
+                            target="janela" /><!--google-glass.html#tela-->
+                        <area shape="circle" coords="158,243,12" href="google-glass.html#camera" target="janela" />
+                        <area shape="circle" coords="74,51,11" href="google-glass.html#sensores" target="janela" />
+                        <area shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html#bateria"
+                            target="janela" />
                     </map>
-                    <iframe  id="frame-spec" name="janela" src="google-glass.html" frameborder="0"></iframe >
+                    <iframe id="frame-spec" name="janela" src="google-glass.html" frameborder="0"></iframe>
                     <!--usado para chamar outro arquivo html-->>
                 </section>
             </article>
@@ -111,7 +107,8 @@
 
             <p> Copyright &copy; 2013 - by Gustavo Guanabara <br />
                 <a href="http://www.facebook.com/cursosemvideo" target="_blank"> Facebook </a>|
-                <a href="http://www.twitter.com/cursosemvideo" target="_blank">Twitter</a> </p>
+                <a href="http://www.twitter.com/cursosemvideo" target="_blank">Twitter</a>
+            </p>
         </footer>
 
     </div>
