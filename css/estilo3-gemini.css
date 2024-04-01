@@ -1,0 +1,114 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Tipografia */
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Cores */
+  body {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Header */
+  #cabecalho {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #cabecalho h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  #cabecalho nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  #cabecalho nav ul li {
+    margin-right: 20px;
+  }
+  
+  #cabecalho nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #cabecalho nav ul li a:hover {
+    color: #ccc;
+  }
+  
+  /* Corpo */
+  #corpo {
+    padding: 20px;
+  }
+  
+  #corpo h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #corpo p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  #corpo img {
+    max-width: 100%;
+  }
+  
+  /* Lateral */
+  #lateral {
+    float: right;
+    width: 25%;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  #lateral h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #lateral ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #lateral ul li {
+    margin-bottom: 10px;
+  }
+  
+  #lateral ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  #lateral ul li a:hover {
+    color: #000;
+  }
+  
+  /* Rodapé */
+  #rodape {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #rodape p {
+    margin: 0;
+  }
+  

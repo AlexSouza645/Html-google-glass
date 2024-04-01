@@ -12,6 +12,7 @@ body {
   flex-direction: column;
   align-items: center; */
   max-width: 1920px;
+  font-family: "Poppins", sans-serif;
 }
 
 /* cabeçalho e menu nav */
@@ -30,7 +31,7 @@ nav#menu {
 nav#menu ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   list-style: none;
   text-transform: uppercase;
 }
@@ -60,20 +61,111 @@ nav#menu a {
   text-decoration: none;
 }
 
-.apresentacao h1{
- font-size: 3rem;
-    color: rgb(80, 78, 78);
-    text-shadow: 1px 1px 1px black; 
-    /* padding: 0px;
-    margin-bottom: 0px; */
+nav#menu ul li {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente as imagens */
+}
 
+nav#menu ul li img {
+  height: auto; /* Ajusta automaticamente a altura */
+  width: 50px; /* Mantém a largura fixa */
+}
+
+.apresentacao h1 {
+  color: rgb(80, 78, 78);
+  text-shadow: 1px 1px 1px black;
+  margin-top: 200px;
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-align:center
+}
+
+.apresentacao h2 {
+  font-size: 18px;
+  color: black;
+  margin-top: 20px;
+  text-align:center
+}
+
+header#cabecalho-artigo  h3 {
+  font-size: 12px;
+  color: black;
+  margin-top: 20px;
+}
+
+article#noticia-principal {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sobre {
+  margin:0 auto;
+  width: 600px;
+  max-width: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color:#4354ff
+}
+
+/* Estilo para o conteúdo dentro da div */
+
+.sobre h2 {
+  text-align: center;
+}
+
+.sobre p {
+  text-align: justify;
+}
+
+.sobre img {
+  max-width: 100%;
+}
+
+.sobre figure {
+  text-align: center;
+}
+
+/* ... */
+
+/* Adapte os estilos de acordo com o seu design */
+
+.sobre figure.foto-legenda figcaption {
+  opacity: 0%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, .6);
+  color: blanchedalmond;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: opacity 1s;
 
 }
 
-.apresentacao h2{
-  font-size: 13pt;
-  color: #cecece;
-  background-color: #ffffff;
-
-  
+.foto-legenda:hover figcaption {
+  /*formatação expecifica para uso do mouse*/
+  opacity: 1;
 }
+
+figure.foto-legenda {
+  /* display:flex;
+  align-items:center; */
+  /* position: relative; */
+  border: 8px solid rgb(247, 240, 240);
+  box-shadow: 1px 1px 4px black;
+  width: 400px;
+  height: 200px;
+  /* align-content:center;
+  justify-content:center; */
+} 
+
+figure.foto-legenda img {
+  width: 100%;
+  height: 100%;
+  /* align-content:center;
+  justify-content:center;
+} */
