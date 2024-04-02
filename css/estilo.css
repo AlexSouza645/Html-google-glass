@@ -13,7 +13,14 @@ body {
   align-items: center; */
   max-width: 1920px;
   font-family: "Poppins", sans-serif;
+  background-image: url('/imagens/vetor-de-quadro-geometrico-azul/rm222-mind-29.jpg');
+  
+  background-size: contain; /* Redimensiona a imagem para caber dentro do elemento */
+  /* ou */
+  background-size: 100%; /* Redimensiona a imagem para 50% do tamanho original */
 }
+
+
 
 /* cabeçalho e menu nav */
 
@@ -97,10 +104,9 @@ article#noticia-principal {
   margin: 0 auto;
   max-width: 80%; /* Define a largura máxima do parágrafo */
   padding: 20px;
-
 }
 
-.lancamento p{
+.lancamento p {
   margin: 0 auto;
   max-width: 80%; /* Define a largura máxima do parágrafo */
   padding: 20px;
@@ -228,16 +234,16 @@ table#tabelaspec caption span {
 }
 
 /* seção lateral */
-section#lateral{
+section#lateral {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction:column;
+  flex-direction: column;
   margin: 0 auto;
   max-width: 600px; /* Define a largura máxima do parágrafo */
   padding: 20px;
-
 }
+
 section#lateral h1 {
   font-size: 20pt;
   color: black;
@@ -257,7 +263,6 @@ footer#rodape {
   border-top: 1px solid #606060;
   border-radius: 25px 25px 0 0;
 }
-
 
 footer#rodape p {
   text-align: center;
