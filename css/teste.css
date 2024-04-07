@@ -3,6 +3,8 @@ body{
     display :flex;
     align-items:center;
     max-width: 1920px;
+    background-image: linear-gradient(to right, #4e54c8, #8f94fb);
+  animation: gradient 5s infinite;
   }
   
   /*formatação da interface*/

@@ -8,12 +8,10 @@
 }
 
 body {
-
   max-width: 1920px;
   font-family: "Poppins", sans-serif;
-
-  
-
+  background-image: linear-gradient(to right, #cccbc8, #f5f4f1);
+  animation: gradient 5s infinite;
 }
 
 
@@ -40,7 +38,7 @@ nav#menu ul {
 }
 
 nav#menu li {
-  background-color:#00619a;
+  background-color: #00619a;
   padding: 10px;
   /*espaço dentro dos objetos*/
   margin: 2px;
@@ -116,7 +114,7 @@ article#noticia-principal {
   border: 1px solid #ddd;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #0077C2;
+  background-color: #0077c2;
 }
 
 /* Estilo para o conteúdo dentro da div */
@@ -127,6 +125,7 @@ article#noticia-principal {
 
 .sobre p {
   text-align: justify;
+  color: white;
 }
 
 .sobre img {
@@ -273,3 +272,92 @@ video {
 video#filme2 {
   width: 350px;
 }
+
+.context {
+  width: 100%;
+  position: absolute;
+  top: 50vh;
+}
+
+.context h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+
+#tv-radio {
+  max-width: 100%;
+  width: 640px; /* Ajuste a largura de acordo com o tamanho do vídeo */
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+video#filme2 {
+  width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  #tv-radio {
+    width: 100%;
+  }
+}
+
+
+/* responsividade */
+@media screen and (max-width: 900px) {
+  nav#menu ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #menu ul li {
+    width: auto;
+    margin: 5px;
+    text-align: center;
+  }
+
+  #menu ul li a {
+    font-size: 16px;
+  }
+
+  header#cabecalho {
+    display: flex;
+    flex-direction: column;
+  }
+
+  img#icone {
+    max-width: 40%;
+    margin: auto;
+  }
+
+  .sobre {
+    width: 350px;
+  }
+
+  figure.foto-legenda {
+    margin: auto;
+  }
+
+  video#filme2 {
+    width: 300px;
+    margin: auto;
+  }
+
+  #tv-radio {
+    margin: auto;
+    width: 480px;
+  }
+
+  section#lateral {
+    margin: auto;
+    width: 300px;
+  }
+}
+
+
