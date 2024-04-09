@@ -14,3 +14,18 @@ iframe#frame-spec {
 iframe#frame-spec ::-webkit-scrollbar  {
  display: none;
 }
+
+header#cabecalho {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin: 0 auto;
+  }
+  
+body {
+    max-width: 1920px;
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(to right, #cccbc8, #f5f4f1);
+    animation: gradient 5s infinite;
+  }

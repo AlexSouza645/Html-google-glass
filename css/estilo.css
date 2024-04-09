@@ -72,6 +72,12 @@ nav#menu ul li img {
   width: 50px; /* Mantém a largura fixa */
 }
 
+img#icone{
+  width:20%;
+  position:absolute;
+  text-align:right
+}
+
 .apresentacao h1 {
   color: rgb(80, 78, 78);
   text-shadow: 1px 1px 1px black;
@@ -135,7 +141,9 @@ article#noticia-principal {
 .sobre figure {
   text-align: center;
 }
-
+.sobre span{
+  color :red
+}
 /* ... */
 
 /* Adapte os estilos de acordo com o seu design */
@@ -163,13 +171,16 @@ figure.foto-legenda {
 
   position: relative;
   border: 8px solid white;
-  width: auto;
-  box-shadow: 1px 1px 4px black
+  width: 600px;
+  box-shadow: 1px 1px 4px black;
+  margin:auto
+
 }
 
 figure.foto-legenda img {
   width: 100%;
-  height: 90%;
+  height: 100%;
+  margin-bottom:0
 
 }
 

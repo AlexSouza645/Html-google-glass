@@ -18,44 +18,59 @@
 <!--src para chamar janela de js-->
 
 <body>
-    <div id="interface">
-        <header id="cabeçalho">
-            <hgroup>
-                <h1>Google Glass</h1>
-                <h2>A revolução do Google está chegando</h2>
-            </hgroup>
-            <img id="icone" src="imagens/fotos.png" alt="">
+    <header id="cabecalho">
 
-            <nav id="menu">
-                <h1> Menu Principal</h1>
-                <ul type="disc">
-                    <!--ul (linhas nao ordenadas) ol (linhas ordenadas-->
-                    <li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/fotos.png')">
-                        <!--_imagens/glass-oculos-preto-peq.png-->
-                        <a href="index.html">Home</a>
-                    </li>
+        <nav id="menu">
+            <!-- <h1> Menu Principal</h1> -->
+            <ul type="disc">
+                <!--ul (linhas nao ordenadas) ol (linhas ordenadas-->
+                <li onmouseover="mudaFoto('imagens/home.png')"
+                    onmouseout="mudaFoto('imagens/glass-oculos-preto-peq.png')">
+                    <!--_imagens/glass-oculos-preto-peq.png-->
+                    <a href="index.html">Home</a>
+                </li>
 
-                    <!--colocar os nomes dentro da referencia(a)-->
-                    <li onmouseover="mudaFoto('imagens/especificacoes.png')" onmouseout="mudaFoto('imagens/fotos.png')">
-                        <a href="specs.html">Especificações</a>
-                    </li>
+                <!--colocar os nomes dentro da referencia(a)-->
+                <li onmouseover="mudaFoto('imagens/especificacoes.png')"
+                    onmouseout="mudaFoto('imagens/glass-oculos-preto-peq.png')">
+                    <a href="specs.html">Especificações</a>
+                </li>
 
-                    <li onmouseover="mudaFoto('imagens/fotos.png') " onmouseout="mudaFoto('imagens/fotos.png')">
-                        <a href="fotos.html">Fotos</a>
-                    </li>
+                <li onmouseover="mudaFoto('imagens/fotos.png') "
+                    onmouseout="mudaFoto('imagens/glass-oculos-preto-peq.png')">
+                    <a href="fotos.html">Fotos</a>
+                </li>
 
-                    <li onmouseover="mudaFoto('imagens/multimidia.png')" onmouseout="mudaFoto('imagens/fotos.png')">
-                        <a href="multimidia.html">multimídia</a>
-                    </li>
+                <li onmouseover="mudaFoto('imagens/multimidia.png')"
+                    onmouseout="mudaFoto('imagens/glass-oculos-preto-peq.png')">
+                    <a href="multimidia.html">multimídia</a>
+                </li>
 
-                    <li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/fotos.png')">
-                        <a href="fale-conosco.html">Fale Conosco</a>
-                    </li>
-                </ul>
-            </nav>
+                <li onmouseover="mudaFoto('imagens/contato.png')"
+                    onmouseout="mudaFoto('imagens/glass-oculos-preto-peq.png')">
+                    <a href="fale-conosco.html">Fale Conosco</a>
+                </li>
 
 
-        </header>
+
+
+
+
+
+            </ul>
+
+        </nav>
+
+        <img id="icone" src="imagens/glass-oculos-preto-peq.png" alt="ìcone do google glass">
+    </header>
+
+    <div class="apresentacao">
+
+        <h1 class="google">Google Glass</h1>
+        <h2>A revolução do Google está chegando!!!!</h2>
+    </div>
+    <div class="sobre">
+
         <section id="corpo-full">
             <article id="noticia-principal">
                 <header id="cabecalho-artigo">
