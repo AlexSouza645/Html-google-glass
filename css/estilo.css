@@ -22,6 +22,7 @@ header#cabecalho {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  
   margin: 0 auto;
 }
 
@@ -73,9 +74,13 @@ nav#menu ul li img {
 }
 
 img#icone{
-  width:20%;
-  position:absolute;
-  text-align:right
+  width:15%;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  width: 15%;
+  height: 15%px;
+
 }
 
 .apresentacao h1 {
@@ -130,7 +135,7 @@ article#noticia-principal {
 }
 
 .sobre p {
-  text-align: justify;
+  text-align: center;
   color: white;
 }
 
@@ -348,6 +353,7 @@ video#filme2 {
 
   figure.foto-legenda {
     margin: auto;
+    width:300px
   }
 
   video#filme2 {

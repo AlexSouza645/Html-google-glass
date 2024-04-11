@@ -1,9 +1,18 @@
 /*formatação do spec html (segunbdo arquivo de html)*/
-
+@font-face {
+  /*fontes externas*/
+  font-family: 'Roboto';
+  /*criar variavel para fonte*/
+  src: url('projeto-glass-html5/_fonts/Roboto-Regular.ttf');
+}
 section#conteudo {
-    width: 1000px;
+    width: 900px;
     margin: auto;
 }
+section#conteudo img{
+  width:50%
+}
+
 iframe#frame-spec {
     width: 
     400px;

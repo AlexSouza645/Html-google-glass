@@ -112,9 +112,23 @@ ul#album-fotos li:hover span { /*fazer a legenda aparecer qdo passar o mouse*/
     opacity:1 ;
 }
 
-/*
+
+@media screen and (min-width:0px) and (max-width: 768px) {
+
+    ul#album-fotos {
+        width  : 400px;
+        margin : 0 auto;
+        padding: 50px;
+        /*margem ou distancia*/
+        overflow  : hidden;
+        list-style: none;
+    
+    
+    }
 
 
 
+}
 
-*/
+
+
