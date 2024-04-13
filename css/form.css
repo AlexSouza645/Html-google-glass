@@ -39,6 +39,7 @@ width: 150px;
 fieldset#usuario {
 
     background: url("/imagens/icone-contato.png") no-repeat 95% 95%;
+    text-align:left
 }
 
 fieldset#endereco {
