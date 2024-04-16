@@ -1,55 +1,64 @@
 form {
-    width: 500px;
-    margin: auto;
+  width: 500px;
+  margin: auto;
 }
 
-input, textarea {
-    font-family: sans-serif;
-    font-weight: normal;
-    font-size: 13pt;
-    background-color: rgba (255,255,255,.8);
-
+input,
+textarea {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 13pt;
+  background-color: rgba (255, 255, 255, .8);
 }
 /*função ao passar o mouse*/
-input:hover, textarea:hover {
-background-color: rgb(145, 144, 144);
+input:hover,
+textarea:hover {
+  background-color: rgb(145, 144, 144);
+}
 
+legend {
+  color: dimgray;
+  font-weight: bold;
+  font-size: 13pt;
+  font-family: sans-serif;
 }
-legend{
-    color: dimgray;
-    font-weight: bold;
-    font-size:13pt ;
-    font-family: sans-serif;
-}
+
 fieldset {
-
-border-color: dimgrey;
-margin: 20px;
-border-radius: 15px 0;
-
-
-
-
-
+  border-color: dimgrey;
+  margin: 10px;
+  border-radius: 15px 0;
 }
+
 fieldset#sexo {
-width: 150px;
-
+  width: 150px;
 }
-fieldset#usuario {
 
-    background: url("/imagens/icone-contato.png") no-repeat 95% 95%;
-    text-align:left
+fieldset#usuario {
+  background: url("/imagens/icone-contato.png") no-repeat 95% 95%;
+  text-align: left;
 }
 
 fieldset#endereco {
-    background: url("/imagens/icone-endereco.png")no-repeat 95% 95%;
+  background: url("/imagens/icone-endereco.png")no-repeat 95% 95%;
 }
+
 fieldset#mensagem {
-    background: url("/imagens/icone-mensagem.png") no-repeat 95% 95%;
-    
+  background: url("/imagens/icone-mensagem.png") no-repeat 95% 95%;
 }
+
 fieldset#pedido {
-    background: url("/imagens/icone-pagamento.png") no-repeat 95% 95%;
-    
+  background: url("/imagens/icone-pagamento.png") no-repeat 95% 95%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  form {
+    width: 400px;
+    margin: auto;
+  }
+
+  fieldset {
+    border-color: dimgrey;
+    margin: auto;
+    border-radius: 15px 0;
+  }
 }

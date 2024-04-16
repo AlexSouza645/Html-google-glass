@@ -1,5 +1,5 @@
 div#tv-radio {
-  background: url("/imagens/Designer - Copia.jpeg") no-repeat;
+  background: url("../imagens/Designer - Copia.jpeg") no-repeat;
 
   background-size: cover;
 }
@@ -26,7 +26,7 @@ video#filme {
 
 @media screen and (min-width:0px) and (max-width: 768px) {
   div#tv-radio {
-    background: url("/imagens/Designer - Copia.jpeg") no-repeat;
+    background: url("../imagens/Designer - Copia.jpeg") no-repeat;
   
     background-size: cover;
     width: 800px;

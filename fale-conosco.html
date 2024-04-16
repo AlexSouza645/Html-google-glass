@@ -82,10 +82,10 @@
     <div class="sobre">
 
         <section id="corpo-full">
-            <article id="noticia-principal">
+         
                 <header id="cabecalho-artigo">
                     <hgroup>
-                        
+
                         <h1>Formulário de Contato</h1>
                         <h2>por Gustavo Guanabara / Alex Miranda</h2>
 
@@ -96,9 +96,9 @@
 
 
 
- <!-- formatação de formuário-->
+                <!-- formatação de formuário-->
                 <form action="mailto:alexsouza.brz@gmail.com" method="POST" id="fContato" oninput="calc_total()">
-                   
+
                     <fieldset id="usuario">
                         <legend>Identificação do Usuário</legend>
                         <p><label for="cNome">Nome: </label> <input type="text" name="tNome" id="cNome" size="20"
@@ -144,7 +144,8 @@
 
                         <p><label for="cCid"></label> Cidade:
                             <input list="cidades" type="text" id="cCid" name="tcid" size="20" maxlength="40"
-                                placeholder="sua cidade"></p>
+                                placeholder="sua cidade">
+                        </p>
                         <datalist id="cidades">
                             <!--recurso para criar opções de preenchimento-->>
                             <option value="Rio de Janeiro"></option>
@@ -162,13 +163,15 @@
 
                         <p><label for="cMen"></label> Mensagem:
                             <textarea name="tMsg" id="cMsg" cols="35" rows="4"
-                                placeholder="Deixe aqui sua mensagem"></textarea></p>
+                                placeholder="Deixe aqui sua mensagem"></textarea>
+                        </p>
                     </fieldset>
 
                     <fieldset id="pedido">
                         <legend>Quero um Google Glass</legend>
                         <p><input type="checkbox" name="tPed" id="cPed" checked>
-                            <label for="cPed"> Gostaria de adquirir um Google Glass quando disponível</label></p>
+                            <label for="cPed"> Gostaria de adquirir um Google Glass quando disponível</label>
+                        </p>
 
                         <p></p> <label for="cCor">Cor:</label>
                         <input type="color" name="" id="" value="#000555"></p>
@@ -179,7 +182,8 @@
                         </p>
 
                         <p>
-                            <label for="cTot">Preço Total: R$</label> </p>
+                            <label for="cTot">Preço Total: R$</label>
+                        </p>
                         <input type="text" name="tTot" id="cTot" placeholder="total a pagar" readonly>
                     </fieldset>
 
@@ -196,7 +200,8 @@
 
                     <p> Copyright &copy; 2024 - by Gustavo Guanabara <br />
                         <a href="http://www.facebook.com/cursosemvideo" target="_blank"> Facebook </a>|
-                        <a href="http://www.twitter.com/cursosemvideo" target="_blank">Twitter</a> </p>
+                        <a href="http://www.twitter.com/cursosemvideo" target="_blank">Twitter</a>
+                    </p>
                 </footer>
 
     </div>
